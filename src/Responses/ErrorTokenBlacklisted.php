@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rasim\LaravelApiResponses\Responses;
+namespace RasimAghayev\LaravelApiResponses\Responses;
 
 class ErrorTokenBlacklisted extends ApiErrorResponse
 {

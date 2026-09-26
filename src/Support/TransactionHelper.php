@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Rasim\LaravelApiResponses\Support;
+namespace RasimAghayev\LaravelApiResponses\Support;
 
 use Illuminate\Support\Facades\DB;
-use Rasim\LaravelApiResponses\Responses\SuccessApiResponse;
-use Rasim\LaravelApiResponses\Responses\ErrorApiResponse;
+use RasimAghayev\LaravelApiResponses\Responses\SuccessApiResponse;
+use RasimAghayev\LaravelApiResponses\Responses\ErrorApiResponse;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Validation\ValidationException;

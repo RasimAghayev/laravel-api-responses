@@ -1,5 +1,5 @@
 {
-    "name": "rasim/laravel-api-responses",
+    "name": "rasimaghayev/laravel-api-responses",
     "description": "Laravel package providing shared API response classes extracted from Group B repos (atl_tech, AC-Task, blockchain-monitoring-api).",
     "type": "library",
     "license": "MIT",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rasim\\LaravelApiResponses\\": "src/"
+            "RasimAghayev\\LaravelApiResponses\\": "src/"
         }
     },
     "autoload-dev": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rasim\\LaravelApiResponses\\LaravelApiResponsesServiceProvider"
+                "RasimAghayev\\LaravelApiResponses\\LaravelApiResponsesServiceProvider"
             ]
         }
     },

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rasim\LaravelApiResponses\Support\Filters;
+namespace RasimAghayev\LaravelApiResponses\Support\Filters;
 
 use Illuminate\Http\Request;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rasim\LaravelApiResponses;
+namespace RasimAghayev\LaravelApiResponses;
 
 use Illuminate\Support\ServiceProvider;
 

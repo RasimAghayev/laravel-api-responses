@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rasim\LaravelApiResponses\Responses;
+namespace RasimAghayev\LaravelApiResponses\Responses;
 
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\JsonResponse;

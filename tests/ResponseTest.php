@@ -5,10 +5,12 @@ declare(strict_types=1);
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use Rasim\LaravelApiResponses\Responses\ApiBaseResponse;
-use Rasim\LaravelApiResponses\Responses\SuccessApiResponse;
-use Rasim\LaravelApiResponses\Responses\ApiErrorResponse;
-use Rasim\LaravelApiResponses\Responses\ErrorApiResponse;
+use RasimAghayev\LaravelApiResponses\Responses\{
+    ApiBaseResponse,
+    SuccessApiResponse,
+    ApiErrorResponse,
+    ErrorApiResponse
+};
 
 class ResponseTest extends TestCase
 {
