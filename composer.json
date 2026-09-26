@@ -1,0 +1,39 @@
+{
+    "name": "rasim/laravel-api-responses",
+    "description": "Laravel package providing shared API response classes extracted from Group B repos (atl_tech, AC-Task, blockchain-monitoring-api).",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rasim Aghayev"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/http": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0",
+        "symfony/http-foundation": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rasim\\LaravelApiResponses\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rasim\\LaravelApiResponses\\LaravelApiResponsesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
