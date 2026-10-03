@@ -11,7 +11,7 @@
     "require": {
         "php": "^8.2",
         "illuminate/http": "13.33.0",
-        "illuminate/support": "13.33.0",
+        "illuminate/support": "13.34.0",
         "symfony/http-foundation": "^8.0"
     },
     "require-dev": {
