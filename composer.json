@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/http": "13.33.0",
+        "illuminate/http": "13.35.0",
         "illuminate/support": "13.33.0",
         "symfony/http-foundation": "^8.0"
     },
