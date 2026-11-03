@@ -1,4 +1,6 @@
 # RasimAghayev Laravel API Responses
+![Views](https://hits.sh/github.com/RasimAghayev/laravel-api-responses.svg?label=views&color=0e75b6)
+
 
 Shared Laravel API response classes extracted from Group B repos (atl_tech, AC-Task, blockchain-monitoring-api).
 
