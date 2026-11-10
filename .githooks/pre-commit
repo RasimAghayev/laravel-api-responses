@@ -1,0 +1,12 @@
+#!/bin/sh
+# pre-commit secret scan (gitleaks) - Phase 4 git hygiene
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks protect --staged --verbose
+  exit $?
+fi
+if command -v docker >/dev/null 2>&1; then
+  docker run --rm -v "$(git rev-parse --show-toplevel):/repo" -w /repo zricethezav/gitleaks:latest protect --staged --verbose
+  exit $?
+fi
+echo "gitleaks not found (and docker unavailable); skipping secret scan" >&2
+exit 0
