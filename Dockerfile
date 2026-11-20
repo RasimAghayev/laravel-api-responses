@@ -25,7 +25,7 @@ RUN --mount=type=cache,target=/tmp/composer-cache,sharing=locked \
 # base: minimal PHP CLI runtime shared by build and runtime stages.
 # No compilers, no dev tools, no Composer binary ships in the final image.
 # ---------------------------------------------------------------------------
-FROM php:8.5-cli-alpine@sha256:1ff5b45922ab30f418447c6089dbe2eba5f01e0b2742863d0327ac349305d70f AS base
+FROM php:8.5-cli-alpine@sha256:b9d7db51a2b83c41420ba04de0b90e6078d4b6440e5cc480fc4dc51b18e0b6db AS base
 WORKDIR /app
 
 # Core extensions required by illuminate/support and symfony/http-foundation.
