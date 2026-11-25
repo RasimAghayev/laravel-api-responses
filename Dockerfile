@@ -25,7 +25,7 @@ RUN --mount=type=cache,target=/tmp/composer-cache,sharing=locked \
 # base: minimal PHP CLI runtime shared by build and runtime stages.
 # No compilers, no dev tools, no Composer binary ships in the final image.
 # ---------------------------------------------------------------------------
-FROM php:8.5-cli-alpine@sha256:1ff5b45922ab30f418447c6089dbe2eba5f01e0b2742863d0327ac349305d70f AS base
+FROM php:8.6-cli-alpine@sha256:19c9ad299d11db9b15a2198c1e5aa8345b1907f0ac48731f50cf024d2b64221e AS base
 WORKDIR /app
 
 # Core extensions required by illuminate/support and symfony/http-foundation.
@@ -76,7 +76,7 @@ RUN chmod +x /entrypoint.sh
 # A non-zero exit here is the honest Phase 5 baseline and is NOT a Dockerfile
 # defect — it records pre-existing test failures for later phases to fix.
 # ---------------------------------------------------------------------------
-FROM php:8.5-cli@sha256:50956f094e90a716d43bea28087d447555ad80510e386ab8c9c10d8c70d781a9 AS test
+FROM php:8.6-cli@sha256:9bc69093cdff73d2dcf12bc34f4c308b8496a27dc3e6a4d0c332877289c6bf13 AS test
 WORKDIR /app
 
 RUN apt-get update \
