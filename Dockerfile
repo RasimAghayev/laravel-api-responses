@@ -76,7 +76,7 @@ RUN chmod +x /entrypoint.sh
 # A non-zero exit here is the honest Phase 5 baseline and is NOT a Dockerfile
 # defect — it records pre-existing test failures for later phases to fix.
 # ---------------------------------------------------------------------------
-FROM php:8.5-cli@sha256:50956f094e90a716d43bea28087d447555ad80510e386ab8c9c10d8c70d781a9 AS test
+FROM php:8.5-cli@sha256:e33c9c494e41d56e18c4e9609b98dbdeac68682916cd7d2917582492a6e15618 AS test
 WORKDIR /app
 
 RUN apt-get update \
