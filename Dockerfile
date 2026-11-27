@@ -7,7 +7,7 @@
 # deps: resolve and install production dependencies only.
 # BuildKit cache mount keeps the Composer cache across builds.
 # ---------------------------------------------------------------------------
-FROM composer:2@sha256:0c8e663f14c94d07b3c45b175c51f5a14718508f21fe4dd7e54f09488dd0ed71 AS deps
+FROM composer:2@sha256:5b2137f112f939a92788ceb5e55f54859d9dbf467a44037cf7760bdda949f365 AS deps
 WORKDIR /app
 
 COPY composer.json ./
